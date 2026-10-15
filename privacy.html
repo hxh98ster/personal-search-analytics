@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Personal Search Analytics accesses, uses, stores and shares Google Search Console and Google Analytics data.">
+  <title>Privacy policy · Personal Search Analytics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Personal Search Analytics</a><nav aria-label="Main navigation"><a href="./">About the project</a><a href="privacy.html" aria-current="page">Privacy policy</a></nav></header>
+  <main>
+    <p class="eyebrow">Project privacy policy</p>
+    <h1>How this project handles data.</h1>
+    <p class="updated">Last updated: 15 October 2026</p>
+    <p>This policy applies to Personal Search Analytics, a personal desktop reporting project maintained by GitHub user <a href="https://github.com/hxh98ster">hxh98ster</a>. It covers the connector's use of Google data and this public documentation website.</p>
+    <h2>Google information accessed</h2>
+    <p>After the operator grants permission, the connector can read data from Google Search Console and Google Analytics properties that the operator is authorized to access. This includes property identifiers and names; Search Console queries, page URLs, clicks, impressions, click-through rates, positions, countries and devices; sitemap and URL inspection information; and aggregate Google Analytics reports such as traffic sources, events and website usage metrics.</p>
+    <p>The connector requests only <code>https://www.googleapis.com/auth/webmasters.readonly</code> and <code>https://www.googleapis.com/auth/analytics.readonly</code>. It does not request access to Gmail, contacts, Drive files or a Google account password. Google handles sign-in and consent.</p>
+    <h2>Purpose and use</h2>
+    <p>Google data is used to answer the operator's analytics questions, review search and website performance, and prepare requested reports. The connector does not sell Google data or use it to target advertising. It does not provide a public database of connected properties or reports.</p>
+    <h2>Storage and retention</h2>
+    <p>OAuth credentials and refresh tokens are stored in credential files on the operator's computer. They are not part of this public website or repository and are not included in normal report responses. Local file protection depends on the computer's operating-system and access controls.</p>
+    <p>The operator may save reports or exports locally. Local credentials and saved reports remain until the operator deletes them; this project does not promise automatic deletion after a fixed period. Revoking Google access stops future authorized requests but does not delete reports already saved.</p>
+    <h2>Codex and other service providers</h2>
+    <p>Connector results can be returned to the operator's Codex conversation for AI-assisted analysis. Those results are then processed by OpenAI as part of providing Codex. Conversation retention and other processing depend on the operator's OpenAI service plan, account settings and applicable policies. Processing is therefore not limited to the local computer.</p>
+    <p>Google processes authorization and API requests. GitHub Pages hosts this documentation site and may process technical request information, such as IP addresses and request logs, under GitHub's privacy policy. The site itself contains no analytics script, advertising script, Google sign-in form or report-upload form. Viewing this site does not connect a Google account.</p>
+    <h2>Revocation and deletion</h2>
+    <p>The operator can revoke the project's access in <a href="https://myaccount.google.com/connections">Google Account third-party connections</a>. To remove retained information, the operator must also delete local credential files and report exports, and manage relevant Codex conversations through their OpenAI account. These actions do not delete the original data held in Google Search Console or Google Analytics.</p>
+    <h2>Contact and changes</h2>
+    <p>For private questions about Google data or deletion, contact the support email displayed on this project's Google consent screen. General non-sensitive questions may be posted in the <a href="https://github.com/hxh98ster/personal-search-analytics/issues">project issue tracker</a>. Do not post tokens, credentials, private reports or personal information there.</p>
+    <p>If the connector's data practices change, this policy will be updated and its revision date changed. The public repository records revisions to these documentation pages.</p>
+  </main>
+  <footer><a href="./">About Personal Search Analytics</a><span>Independent personal-use project.</span></footer>
+</body>
+</html>
